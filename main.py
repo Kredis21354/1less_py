@@ -1,15 +1,18 @@
 class Person:
-  name = "Dmytro Prokopets"
+  name = "Dmytro "
   is_male = True
   age = 14
   height = 180
   weight = 60
 
-me = Person()
-you = Person()
+  def __init__(self, surname):
+    self.surname = surname
+    print(self.name)
+
+me = Person("Prokopets")
+you = Person("Test")
 
 
-print(me.height)
-me.height += 5
-print(me.height)
+print(me.surname)
+print(me.surname)
   
