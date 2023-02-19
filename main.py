@@ -22,6 +22,7 @@ me = Person("Prokopets")
 me.do_my_thing()
 me.hooby = "Study"
 
-my_friend = Person("Anton")
+my_friend = Person("Petrushka")
 my_friend.hooby = "Football"
-  
+
+
