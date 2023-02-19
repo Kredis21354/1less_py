@@ -4,15 +4,24 @@ class Person:
   age = 14
   height = 180
   weight = 60
+  hobby = "Learning Python"
 
   def __init__(self, surname):
     self.surname = surname
-    print(self.name)
+    #print(self.name)
+  
+  
+  def do_my_thing(self):
+    print("I love", self.hobby)
+
+
 
 me = Person("Prokopets")
-you = Person("Test")
+#you = Person("Test")
 
+me.do_my_thing()
+me.hooby = "Study"
 
-print(me.surname)
-print(me.surname)
+my_friend = Person("Anton")
+my_friend.hooby = "Football"
   
